@@ -7,21 +7,79 @@
     <script src="main.js" defer></script>
     <title>Landing Page</title>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="/images/logo.png" alt="Logo image">
+            <img src="/images/logo.png" alt="Logo Image">
         </div>
         <div class="nav">
             <nav>
                 <ul>
-                    <li><a href="#" target="_blank">Link 1</a></li>
-                    <li><a href="#" target="_blank">Link 2</a></li>
-                    <li><a href="#" target="_blank">Link 3</a></li>
+                    <li><a href="#" target="_blank">header link one</a></li>
+                    <li><a href="#" target="_blank">header link two</a></li>
+                    <li><a href="#" target="_blank">header link three</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main> 
+        <div class="hero">
+            <div class="main">
+                <h2>This website is awesome</h2>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="main_logo">
+               <img src="/images/logo.png" alt="logo">
+             </div>
+        </div>
+        <div class="section" id="random">
+            <h2>Some random information</h2>
+            <div class="image_containers">
+                <div class="container" id= "img_1"></div>
+                <div class="container" id= "img_2"></div>
+                <div class="container" id= "img_3"></div>
+                <div class="container" id= "img_4"></div>
+            </div>
+            <div class="img_caption">
+                <div class="caption" id="img_caption_1">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="caption" id="img_caption_2">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="caption" id="img_caption_3">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="caption" id="img_caption_4">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="inspiration">
+            <p id="quote">This is an inspiring quote, or a testimonial from <br>
+                a customer. Maybe it is just filling up space or maybe, <br>
+                people will actually read it. Who knows? All I know <br>
+                is that it looks nice.
+            </p>
+            <p id="author">-Thor, God of Thunder</p>
+        </div>
+        <div class="section" id="action">
+            <div class="action_container">
+                <div id="call_for_action">
+                    <h3>Call to action! it's time!</h3>
+                    <span>Sign up for our product by clicking the button right of there!</span>
+                </div>
+                <button type="button" id="sign_up">Sign up</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p style="color: white;">Copyright<span>&nbsp;</span><span>&copy</span><span>&nbsp;</span>The Odin Project 2024</p>
+    </footer>
 </body>
 </html>
