@@ -51,7 +51,13 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
+    transition: all ease-out 1s;
 }
+/* navigation links on hover */
+    nav a:hover{
+        cursor: pointer;
+        border-bottom: 0.125rem solid #3882f6;
+    }
 /* Main Section */
 main {
     height: 95vh;
@@ -91,6 +97,7 @@ main {
     border-radius: 0.3125rem;
     width: 15vh;
     color: white;
+    transition: all ease-out 1s;
 }
 .main_logo {
     display: flex;
@@ -128,6 +135,13 @@ main {
             border-radius: 0.3125rem;
             height: 15vh;
             width: 15vh;
+            transition: all ease-out 1s;
+        }
+        /* On hover on the image containers */
+        .container:hover{
+            cursor: pointer;
+            transform: scale(1.2,1.2);
+            background-color: bisque;
         }
     .img_caption{
         width: 50%;
@@ -188,6 +202,7 @@ main {
             flex-direction: column;
             justify-content: space-evenly;
         }
+        /* This is the sign up button */
         #sign_up {
             outline: none;
             border: 1px solid white;
@@ -197,7 +212,13 @@ main {
             width: 15vh;
             color: white;
             height: 5vh;
+            transition: all ease-out 1s;
         }
+            /* button on hover */
+            .main button:hover, #sign_up:hover{
+                background-color: rgb(134, 134, 243);
+                cursor: pointer;
+            }
 
 footer{
     color: white;
